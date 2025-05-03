@@ -7,7 +7,6 @@ using UnityEngine.EventSystems;
 
 public class PlayerController : MonoBehaviour
 {
-
     [SerializeField] Transform playerCamer = null; // Reference to the camera
     [SerializeField] float mouseSensitivity = 8f; // Mouse sensitivity
 
