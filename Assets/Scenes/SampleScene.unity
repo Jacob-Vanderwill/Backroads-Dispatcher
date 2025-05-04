@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 449861378}
   - component: {fileID: 449861377}
   - component: {fileID: 449861376}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 953459459}
   - component: {fileID: 953459458}
   - component: {fileID: 953459457}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -798,7 +798,7 @@ GameObject:
   - component: {fileID: 1050704783}
   - component: {fileID: 1050704782}
   - component: {fileID: 1050704781}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1194,7 +1194,7 @@ GameObject:
   - component: {fileID: 1272206597}
   - component: {fileID: 1272206596}
   - component: {fileID: 1272206595}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1300,7 +1300,6 @@ GameObject:
   - component: {fileID: 1502745458}
   - component: {fileID: 1502745457}
   - component: {fileID: 1502745459}
-  - component: {fileID: 1502745460}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -1385,19 +1384,7 @@ MonoBehaviour:
   interactDistance: 3
   interactableLayer:
     serializedVersion: 2
-    m_Bits: 1
---- !u!114 &1502745460
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1502745452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca33474b9987537419cbf49c92725abf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+    m_Bits: 64
 --- !u!1 &1524452949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1410,7 +1397,7 @@ GameObject:
   - component: {fileID: 1524452952}
   - component: {fileID: 1524452951}
   - component: {fileID: 1524452950}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1516,7 +1503,7 @@ GameObject:
   - component: {fileID: 1544135226}
   - component: {fileID: 1544135225}
   - component: {fileID: 1544135224}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
